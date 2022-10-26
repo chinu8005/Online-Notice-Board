@@ -1,0 +1,188 @@
+*
+{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+body
+{
+    font-family: sans-serif;
+    background-image: url(tell.png);
+
+}
+
+nav
+{
+text-align: center;
+
+}
+label.logo
+{ 
+     float: left;
+     font-weight: bold;
+     color: rgba(0, 0, 0, 0.979);
+     width: 400px;
+     margin: 13px;
+     padding: 13px;
+     background: rgba(0, 0, 0, 0.26);
+
+  
+    
+}
+nav ul
+{ 
+    
+    float: right;
+    font-size: none;
+    display: flex;
+
+}
+
+nav li
+{   
+     width: 210px;
+     margin: 15px;
+     padding: 15px;
+     
+}
+ nav ul li a
+ {
+    
+     color: black;
+     text-decoration: none;
+     
+     
+      
+}
+nav ul li:hover,nav li a.active
+{  
+   background: rgba(0, 0, 0, 0.384);
+   border-radius: 15px;
+   color: transparent;
+
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+
+
+
+.left
+{
+    color: rgb(1, 104, 104);
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+.left img
+{  
+    font-display: block;
+    height: 130px;
+    width:120px ;
+    border-radius: 30px;
+    background-color: #ff8800c0
+}
+.mid
+{
+    color: rgb(9, 202, 202);
+    display: inline-block;
+    position: absolute;
+    left: 550px;
+    top: 400px;
+
+}
+.mid img
+{  
+    font-display: block;
+    height: 130px;
+    width:120px ;
+    border-radius: 30px;
+    background-color: #ff8800c0
+
+}
+.right
+{
+    color: rgb(4, 94, 94);
+    position: absolute;
+    top: 400px;
+    right: 250px;
+}
+.right img
+{  
+    font-display: block;
+    height: 130px;
+    width:150px ;
+    border-radius: 30px;
+}
+ .section.div .left.img :hover{
+    background-color: #ff8800c0;
+ }
+ .main-box{
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(#00000042, #000000bb), url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30vh;
+ }
+ 
+ .main-box h1{
+    word-spacing: 8px;
+    margin-bottom: 15px;
+    font-family: serif;
+ }
+ .main-box p{
+    font-family: "Century Gothic", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    margin-bottom: 40px;
+ }
+ 
+ 
+ 
+ 
+ .container{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 200px;
+ }
+ .container h2{
+    color: #ff8800;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+ }
+ .container h2::before, .container h2::after{
+    content: "-----";
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin: 0 10px 0 5px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
