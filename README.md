@@ -1,9 +1,13 @@
 # Online-Notice-Board
 
-In today’s modern colleges, there should be a platform where people can communicate and can exchange information. Sometimes, there is a big gap between different departments of a college and students don’t get information on time. There should be a centralized platform where students can check information and notices. Online Notice Board is a platform which provides this service.
+In today’s modern colleges, there should be a platform where people can communicate and can 
+exchange information. Sometimes, there is a big gap between different departments of a college 
+and students don’t get information on time. There should be a centralized platform where 
+students can check information and notices. Online Notice Board is a platform which provides this service.
 
  
-An admin panel that handles network communication created via web technology and students panel include a screen acting as digital board for notices displayed by teacher. 
+An admin panel that handles network communication created via web technology and students 
+panel include a screen acting as digital board for notices displayed by teacher. 
 
 1.2	Problem Definition
  
@@ -36,14 +40,18 @@ https://www.apachefriends.org/index.html
 and download Xamp Apache and PHP
 
 Step 2: - Install Xamp
-Execute the Xamp installer and on the welcome screen click Next. After installation is complete it will show a success message.
+Execute the Xamp installer and on the welcome screen click Next. After 
+installation is complete it will show a success message.
 
 Step 3: - Set up the environment
-Check whether MySQL is already installed. If already install open service manager and      
+Check whether MySQL is already installed. If already install open service 
+manager and      
 search MySQL, right click and stop it from running.
 Open Xamp application and start ‘Apache Server’ and ‘MySQL’.
-After starting we’ll get to see the port number where Apache and     MySQL is   running.
+After starting we’ll get to see the port number where Apache and     
+MySQL is   running.
 
 Step 4: - Executing the project
 Save project folder in path ‘C:\xamp\htdocs’.
-Open any browser on machine. In URL type ‘localhost/ONB/homepage.php’.
+Open any browser on machine. In URL type 
+‘localhost/ONB/homepage.php’.
